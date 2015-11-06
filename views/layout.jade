@@ -1,0 +1,16 @@
+html
+  head
+    title!= title
+    link(rel="icon" href="favicon.ico" type="image/x-icon")
+    link(rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet" href="stylesheets/style.css")
+    script(src="jquery/dist/jquery.min.js")
+    script(src="javascripts/socket.io/socket.io.js")
+
+  body
+    header.container-fluid
+      h4!= message
+
+    block content
+
+

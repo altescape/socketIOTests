@@ -1,0 +1,46 @@
+@import variables
+
+header
+  background: black
+  color: white
+  padding: 1em
+  max-height: 70px
+
+.join-wrapper
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background: primary-color
+  padding: 10em
+  margin: 0
+  z-index: 1
+  input#name
+    @extends .bare-input 
+
+#messages
+  position: fixed
+  top: 70px
+  left: 0
+  right: 0
+  bottom: 70px
+  margin: 0
+  padding: 0
+  overflow: auto
+  li
+    padding: 30px 50px
+
+form#chat
+  position: fixed
+  bottom: 0
+  width: 100%
+  margin-bottom: 0
+  padding: 1em
+  border-top: 1px solid primary-color
+  z-index: 0
+  background: white
+  max-height: 70px
+  input#message
+    @extends .bare-input 
+

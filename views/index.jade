@@ -1,0 +1,25 @@
+extends layout
+
+block content
+
+  div.join-wrapper.row
+    div.col-md-8.col-md-offset-2
+      form#join.form-horizontal
+        div.col-md-4.col-md-offset-1
+          div.form-group
+            input#firstname.form-control.input-lg(name="firstname" placeholder="first name")
+          div.form-group
+            input#lastname.form-control.input-lg(name="lastname" placeholder="last name")
+        div.col-md-4.col-md-offset-1
+          div.form-group
+            input#nickname.form-control.input-lg(name="nickname" placeholder="nickname")
+          div.form-group
+            input#email.form-control.input-lg(name="email" placeholder="email")
+
+  div.chat-wrapper
+    ul#messages.list-unstyled
+
+    form#chat.form-inline
+      input#message.form-control(autocomplete="off" placeholder="Type a message here")
+
+  script(src="javascripts/script.js")

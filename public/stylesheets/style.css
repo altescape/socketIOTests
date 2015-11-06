@@ -1,0 +1,26 @@
+
+/* line 45 : /home/web/www/apps/hello_world/public/stylesheets/style.styl */
+
+/* line 1 : /home/web/www/apps/hello_world/node_modules/stylus/lib/functions/index.styl */
+
+/* line 286 : /home/web/www/apps/hello_world/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/web/www/apps/hello_world/public/stylesheets/variables.styl */
+
+/* line 3 : /home/web/www/apps/hello_world/public/stylesheets/variables.styl */
+.bare-input,.join-wrapper input#name,form#chat input#message{width:100%;border:none;box-shadow:none;}
+/* line 7 : /home/web/www/apps/hello_world/public/stylesheets/variables.styl */
+.bare-input:focus,.join-wrapper input#name:focus,form#chat input#message:focus{border:none;box-shadow:none;outline:none}
+/* line 3 : /home/web/www/apps/hello_world/public/stylesheets/style.styl */
+header{background:#000;color:#fff;padding:1em;max-height:70px}
+/* line 9 : /home/web/www/apps/hello_world/public/stylesheets/style.styl */
+.join-wrapper{position:fixed;top:0;left:0;right:0;bottom:0;background:#0ca0e2;padding:10em;margin:0;z-index:1;}
+/* line 19 : /home/web/www/apps/hello_world/public/stylesheets/style.styl */
+
+/* line 22 : /home/web/www/apps/hello_world/public/stylesheets/style.styl */
+#messages{position:fixed;top:70px;left:0;right:0;bottom:70px;margin:0;padding:0;overflow:auto;}
+/* line 31 : /home/web/www/apps/hello_world/public/stylesheets/style.styl */
+#messages li{padding:30px 50px}
+/* line 34 : /home/web/www/apps/hello_world/public/stylesheets/style.styl */
+form#chat{position:fixed;bottom:0;width:100%;margin-bottom:0;padding:1em;border-top:1px solid #0ca0e2;z-index:0;background:#fff;max-height:70px;}
+/* line 44 : /home/web/www/apps/hello_world/public/stylesheets/style.styl */
